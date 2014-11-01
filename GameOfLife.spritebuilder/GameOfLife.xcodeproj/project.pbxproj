@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
+		B4E5D8711A04660F0055E4CB /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8641A04660F0055E4CB /* balloon.png */; };
+		B4E5D8721A04660F0055E4CB /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8651A04660F0055E4CB /* bubble.png */; };
+		B4E5D8731A04660F0055E4CB /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8661A04660F0055E4CB /* grid.png */; };
+		B4E5D8741A04660F0055E4CB /* microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8671A04660F0055E4CB /* microscope.png */; };
+		B4E5D8751A04660F0055E4CB /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8691A04660F0055E4CB /* background.png */; };
+		B4E5D8761A04660F0055E4CB /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D86B1A04660F0055E4CB /* button-pressed.png */; };
+		B4E5D8771A04660F0055E4CB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D86C1A04660F0055E4CB /* button.png */; };
+		B4E5D8781A04660F0055E4CB /* pause-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D86D1A04660F0055E4CB /* pause-pressed.png */; };
+		B4E5D8791A04660F0055E4CB /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D86E1A04660F0055E4CB /* pause.png */; };
+		B4E5D87A1A04660F0055E4CB /* play-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D86F1A04660F0055E4CB /* play-pressed.png */; };
+		B4E5D87B1A04660F0055E4CB /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8701A04660F0055E4CB /* play.png */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -57,6 +68,17 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B4E5D8641A04660F0055E4CB /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		B4E5D8651A04660F0055E4CB /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		B4E5D8661A04660F0055E4CB /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		B4E5D8671A04660F0055E4CB /* microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microscope.png; sourceTree = "<group>"; };
+		B4E5D8691A04660F0055E4CB /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B4E5D86B1A04660F0055E4CB /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		B4E5D86C1A04660F0055E4CB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		B4E5D86D1A04660F0055E4CB /* pause-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-pressed.png"; sourceTree = "<group>"; };
+		B4E5D86E1A04660F0055E4CB /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		B4E5D86F1A04660F0055E4CB /* play-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-pressed.png"; sourceTree = "<group>"; };
+		B4E5D8701A04660F0055E4CB /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -122,6 +144,49 @@
 			name = libs;
 			sourceTree = "<group>";
 		};
+		B4E5D8621A04660F0055E4CB /* GameOfLifeAssets */ = {
+			isa = PBXGroup;
+			children = (
+				B4E5D8631A04660F0055E4CB /* Assets */,
+				B4E5D8681A04660F0055E4CB /* BackgroundImage */,
+				B4E5D86A1A04660F0055E4CB /* Buttons */,
+			);
+			name = GameOfLifeAssets;
+			path = ../../Downloads/GameOfLifeAssets;
+			sourceTree = "<group>";
+		};
+		B4E5D8631A04660F0055E4CB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B4E5D8641A04660F0055E4CB /* balloon.png */,
+				B4E5D8651A04660F0055E4CB /* bubble.png */,
+				B4E5D8661A04660F0055E4CB /* grid.png */,
+				B4E5D8671A04660F0055E4CB /* microscope.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B4E5D8681A04660F0055E4CB /* BackgroundImage */ = {
+			isa = PBXGroup;
+			children = (
+				B4E5D8691A04660F0055E4CB /* background.png */,
+			);
+			path = BackgroundImage;
+			sourceTree = "<group>";
+		};
+		B4E5D86A1A04660F0055E4CB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B4E5D86B1A04660F0055E4CB /* button-pressed.png */,
+				B4E5D86C1A04660F0055E4CB /* button.png */,
+				B4E5D86D1A04660F0055E4CB /* pause-pressed.png */,
+				B4E5D86E1A04660F0055E4CB /* pause.png */,
+				B4E5D86F1A04660F0055E4CB /* play-pressed.png */,
+				B4E5D8701A04660F0055E4CB /* play.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +230,7 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
+				B4E5D8621A04660F0055E4CB /* GameOfLifeAssets */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
@@ -299,20 +365,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
+				B4E5D8751A04660F0055E4CB /* background.png in Resources */,
+				B4E5D8791A04660F0055E4CB /* pause.png in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
 				B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */,
+				B4E5D8711A04660F0055E4CB /* balloon.png in Resources */,
 				B71F5916188484E7003F4D28 /* iPhone-old@2x.png in Resources */,
 				B737893B180761570076A88C /* Published-iOS in Resources */,
+				B4E5D8741A04660F0055E4CB /* microscope.png in Resources */,
+				B4E5D87B1A04660F0055E4CB /* play.png in Resources */,
 				B71F591A188484E7003F4D28 /* Settings@2x.png in Resources */,
+				B4E5D8771A04660F0055E4CB /* button.png in Resources */,
 				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
+				B4E5D8731A04660F0055E4CB /* grid.png in Resources */,
+				B4E5D87A1A04660F0055E4CB /* play-pressed.png in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
+				B4E5D8781A04660F0055E4CB /* pause-pressed.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
+				B4E5D8761A04660F0055E4CB /* button-pressed.png in Resources */,
+				B4E5D8721A04660F0055E4CB /* bubble.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

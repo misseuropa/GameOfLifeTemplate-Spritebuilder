@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
+		B4D501931A06EA0A003490CC /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D501921A06EA0A003490CC /* Grid.m */; };
+		B4D501971A06EA3C003490CC /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D501961A06EA3C003490CC /* Creature.m */; };
 		B4E5D8711A04660F0055E4CB /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8641A04660F0055E4CB /* balloon.png */; };
 		B4E5D8721A04660F0055E4CB /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8651A04660F0055E4CB /* bubble.png */; };
 		B4E5D8731A04660F0055E4CB /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = B4E5D8661A04660F0055E4CB /* grid.png */; };
@@ -68,6 +70,10 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B4D501911A06EA0A003490CC /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		B4D501921A06EA0A003490CC /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		B4D501951A06EA3C003490CC /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		B4D501961A06EA3C003490CC /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
 		B4E5D8641A04660F0055E4CB /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
 		B4E5D8651A04660F0055E4CB /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
 		B4E5D8661A04660F0055E4CB /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
@@ -230,6 +236,10 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
+				B4D501911A06EA0A003490CC /* Grid.h */,
+				B4D501921A06EA0A003490CC /* Grid.m */,
+				B4D501951A06EA3C003490CC /* Creature.h */,
+				B4D501961A06EA3C003490CC /* Creature.m */,
 				B4E5D8621A04660F0055E4CB /* GameOfLifeAssets */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
@@ -420,6 +430,8 @@
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				B4D501931A06EA0A003490CC /* Grid.m in Sources */,
+				B4D501971A06EA3C003490CC /* Creature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
